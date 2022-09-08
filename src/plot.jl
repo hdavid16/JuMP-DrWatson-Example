@@ -1,4 +1,4 @@
-using Plots
+using Plots, Plots.Measures
 
 function show_network(
     customers,
