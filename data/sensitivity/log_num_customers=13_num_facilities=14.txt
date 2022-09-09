@@ -1,0 +1,37 @@
+Presolving model
+27 rows, 195 cols, 376 nonzeros
+27 rows, 195 cols, 376 nonzeros
+
+Solving MIP model with:
+   27 rows
+   195 cols (14 binary, 0 integer, 0 implied int., 181 continuous)
+   376 nonzeros
+
+( 0.0s) Starting symmetry detection
+( 0.0s) No symmetry present
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -1841.51986     inf                  inf        0      0      0         0     0.0s
+ S       0       0         0   0.00%   -1841.51986     25.86396953     7220.02%        0      0      0         0     0.0s
+         0       0         0   0.00%   22.66174308     25.86396953       12.38%        0      0      0        23     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      25.8639695296
+  Dual bound        25.8639695296
+  Gap               0% (tolerance: 0.01%)
+  Solution status   feasible
+                    25.8639695296 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.00 (total)
+                    0.00 (presolve)
+                    0.00 (postsolve)
+  Nodes             1
+  LP iterations     32 (total)
+                    0 (strong br.)
+                    9 (separation)
+                    0 (heuristics)
