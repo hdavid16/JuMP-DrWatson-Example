@@ -28,7 +28,7 @@ Solving report
                     0 (bound viol.)
                     2.22044604925e-16 (int. viol.)
                     0 (row viol.)
-  Timing            0.00 (total)
+  Timing            0.01 (total)
                     0.00 (presolve)
                     0.00 (postsolve)
   Nodes             1
